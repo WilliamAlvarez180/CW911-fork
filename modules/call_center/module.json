@@ -1,0 +1,47 @@
+{
+	"id": "call_center",
+	"dataorder": 2,
+	"menuorder": 0,
+	"menu": {
+		"call_center": {
+			"type": "submenu",
+			"id": "call_center",
+			"icon": "fas fa-phone",
+			"name": "Centro de Llamadas",
+			"items": {
+				"agent_console": {
+					"type": "item",
+					"id": "call_center.agent_console",
+					"icon": "fas fa-desktop",
+					"name": "Consola de Agente"
+				},
+				"monitor": {
+					"type": "item",
+					"id": "call_center.monitor",
+					"icon": "fas fa-user-group",
+					"name": "Supervisión de Agentes"
+				},
+				"stats": {
+					"type": "item",
+					"id": "call_center.stats",
+					"icon": "fas fa-chart-line",
+					"name": "Estadísticas"
+				},
+				"agents": {
+					"type": "item",
+					"id": "call_center.agents",
+					"icon": "fas fa-headset",
+					"name": "Agentes"
+				},
+				"integration": {
+					"type": "item",
+					"id": "call_center.integration",
+					"icon": "fas fa-code",
+					"name": "Integración PBX"
+				}
+			}
+		}
+	},
+	"config": {},
+	"data": {}
+}

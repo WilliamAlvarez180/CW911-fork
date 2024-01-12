@@ -1,0 +1,34 @@
+﻿{
+	"id": "system",
+	"dataorder": 2,
+	"menuorder": 0,
+	"menu": {
+		"system": {
+			"type": "submenu",
+			"icon": "fas fa-gear",
+			"name": "Sistema",
+			"items": {
+				"system.00-users": {
+					"type": "item",
+					"path": "system.00-users",
+					"icon": "fas fa-user",
+					"name": "Usuarios"
+				},
+				"system.01-accesslevels": {
+					"type": "item",
+					"path": "system.01-accesslevels",
+					"icon": "fas fa-user-group",
+					"name": "Niveles de acceso"
+				},
+				"system.99-modules": {
+					"type": "item",
+					"path": "system.99-modules",
+					"icon": "fas fa-gear",
+					"name": "Modulos"
+				}
+			}
+		}
+	},
+	"config": {},
+	"data": {}
+}
